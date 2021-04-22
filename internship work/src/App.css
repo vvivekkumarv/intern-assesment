@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+}
+.bonner {
+  width: 1440px;
+  height: 300px;
+  top: 500px;
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  position: relative;
+}
+
+.banner__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.bonner__content {
+  display: block;
+  align-items: center;
+  color: #fff;
+  text-decoration: snow;
+  
+}
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner__text {
+  width: 500px;
+  color: #252525;
+}
+.banner__text h3 {
+  font-size: 30px;
+}
+.banner__text h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.bonner__text h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.universe{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 250px;
+  font-weight: 600;
+  align-items: center;
+  background-color: rgb(255, 196, 0);
+  width:1300px;
+  height: 50px;
+  border: 1px solid rgb(238, 238, 252);
+  box-sizing: border-box;
+  padding:10px;
+  }
+  .carousel {
+    width:400px;
+    height:200px;
+    margin: auto;
+  }
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #252525;
+}
+.navbar__text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  width: 40%;
+}
+.logo img {
+  width: 220px;
+}
+.navbar__ul {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  color: #252525;
+}
+.navbar__ul li a {
+  text-decoration: none;
+  color:#252525;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.nav a:hover {
+  color: maroon;    
+}
+
+
+.bannerr__btn {
+  margin-top: 35px;
+}
+.bonner__btn {
+  margin-top: 35px;
+}
+.btnnn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color:#252525;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.healthcare{
+  position: relative;
+  top: -200px;
+  right: -900px;
+}
+
+
+.btnn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color:#252525;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.btnn-smart {
+  background: rgb(69, 202, 255);
+}
+.btn-smort {
+  background: rgb(255, 69, 78);
+}
+.about {
+  padding: 80px 0;
+}
+
+.p-25 {
+  padding: 45px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.about h3 {
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.about h1 {
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p {
+  font-size: 18px;
+  color: #252525;
+  font-weight: 300;
+}
+
+.about__btn {
+  margin-top: 35px;
+}
+.about__img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about__img img {
+  width:max-content;
+  float:right;
+}
+.shop {
+  width: 100%;
+  background: url("/img/bg.jpg");
+  height: 450px;
+  
+}
+.shop__text {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color:#252525;
+}
+.shop__text h1 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.5px;
+}
+.shop__btn {
+  margin-top: 35px;
+}
+
+.clients {
+  width: 100%;
+  padding: 100px 0;
+  background: url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #252525;
+  background-attachment: fixed;
+}
+
+.client {
+  text-align: center;
+}
+.client h1 {
+  font-style: 45px;
+}
+.client p {
+  font-style: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.containerbox {
+  width: 1000px;
+  height: 500px;
+  margin-top: 500px;
+}
+.row1 {
+  width: 100%;
+  display: flex;
+  padding: 0 -8px; 
+  font-weight: 800;
+  text-transform: uppercase;
+  
+}
+.col-7 h1{
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center; 
+  }
+
+
+.prices {
+  width: 100%;
+  padding: 50px;
+}
+
+.price {
+  padding: 20px;
+  text-align: center;
+}
+.price__img {
+  width: 100%;
+}
+
+.price__img img {
+  width: 250px;
+}
+
+.price__heading {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.price__text {
+  margin-top: 15px;
+  color: #252525;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.price_rs {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.containerr{
+ 
+  width: 1440px;
+  height: 300px;
+  top: 2091px;
+  float: right;
+  
+
+}
+.about__imgg{
+  float: right;
+  position: relative;
+  right: -400px;
+  top: -200px;
+}
+.row2{
+  flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.mass{
+  background: linear-gradient(95.15deg, #FFF1E1 0%, #FFFBF7 87.89%, #FFFFFF 99.36%);
+}
+.serviceone{
+  position: relative;
+  top: 700px;
+  right: -200px;
+}
+.servicetwo{
+  position: relative;
+  top: 400px;
+  right: -800px;
+  
+  
+}
+.servicethree{
+  position: relative;
+  top: 300px;
+  right: -800px;
+}
+@media (max-width: 700px) {
+  .navbar__text {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .containerbox{
+    width: min-content;
+    display: flex;
+    flex: wrap;
+  
+  
+  }
+
+  
+  .logo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .container {
+    width: 100%;
+    padding: auto;
+  }
+  .carousel {
+    width:300px;
+    height:50px;
+    margin: auto;
+  }
+  .banner__text {
+    width: auto;
+  }
+  .banner__text h3 {
+    font-size: 25px !important;
+  }
+  .banner__text h1 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+  .banner__text p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .navbar__ul {
+    width: 100%;
+    justify-content: center;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    color: #252525;
+    padding: 0 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  .col-3,
+  .col-4,
+  .col-6,
+  .col-7,
+  .serviceone,
+  .servicethree,
+  .servicetwo {
+    width: 100%;
+  }
+  .client {
+    margin: 20px 0;
+  }
+  .about h1 {
+    font-size: 25px;
+  }
+  .shop h1 {
+    font-size: 25px;
+  }
+  .menu h1 {
+    font-size: 25px;
+  }
+}
